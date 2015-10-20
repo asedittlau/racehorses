@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app="myApp">
+    <head>
+        <title>Polygon Admin</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <script src="js/libraries.min.js"></script>
+        <script src="js/all.min.js"></script>
+
+        <!-- <link rel="stylesheet" href="css/libraries.min.css"> -->
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+    <body ng-controller="GlobalCtrl">
+        <div ui-view="header"></div>
+        <div ui-view="content" class="l-content"></div>
+        <div ui-view="footer"></div>
+    </body>
+</html>

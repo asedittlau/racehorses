@@ -1,0 +1,9 @@
+build/
+*.swp
+*.patch
+*.zip
+*.rar
+*~
+*.DS_Store
+node_modules/
+bower_components/
